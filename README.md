@@ -7,7 +7,7 @@ git clone https://github.com/edma-uni/reporter.git && git clone https://github.c
 Then start docker-compose:
 `cd infrastructure && docker-compose up --build`
 
-Access grafana: http/localhost:3002
+Access grafana: [http://localhost:3002](http://localhost:3002)
 
 If you wanna test load for reporter:
 `cd reporter && node load-test.js`
